@@ -1,0 +1,130 @@
+@font-face {
+    font-family: digital;
+    src: url(fonts/ds_digital/DS-DIGII.TTF);
+}
+@font-face {
+    font-family: digital2;
+    src: url(fonts/ds_digital/DS-DIGIB.TTF);
+}
+
+*{
+    margin: 0;padding: 0;
+}
+body{
+    background: black;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+}
+.gre{
+    
+    background:linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    padding: 10px;
+    border-radius: 5px;
+}
+.black{
+    position: relative;
+   background-color: black;
+   border-radius: 5px;
+
+   height: 200px;
+   width: 400px;
+}
+
+
+.test{
+    color: white;
+    font-size: 4rem;
+}
+
+.digitalclock {
+   position: relative;
+    display: flex;
+    background:-webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+    height: 200px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    font-family: digital;
+
+
+
+}
+
+
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dot {
+    animation: blink 1s infinite;
+    background:-webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+
+}
+.textblack{
+    position: relative;
+    bottom: 20px;
+    justify-self: center;
+    align-self: center;
+    background-color: black;
+    padding: 10px;
+}
+.day{
+   
+   
+    background:-webkit-linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-size: 2rem;
+     font-family:digital2 ;
+     
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background:black;
+    }
+    .digitalclock {
+   
+    height: 150px;
+    width: 300px;
+    font-size: 3rem;
+    }
+    
+.black{
+   
+
+   height: 150px;
+   width: 300px;
+}
+
+
+
+}
