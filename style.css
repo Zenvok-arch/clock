@@ -61,6 +61,7 @@ font-family: digital2;
 
    height: 200px;
    width: 400px;
+   display: grid;
 }
 
 
@@ -119,6 +120,7 @@ font-family: digital2;
     align-self: center;
     background-color: black;
     padding: 10px;
+    display: flex;
 }
 .day{
    

@@ -136,3 +136,5 @@ document.querySelector(".analog").addEventListener("click", () => {
     document.querySelector(".container").innerHTML = analog;
     initializeAnalogClock();
 });
+
+
