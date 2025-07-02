@@ -83,8 +83,8 @@ function initializeAnalogClock() {
     // Place numbers
     const clock = document.querySelector(".analogclock");
     const centerX = clock.getBoundingClientRect().width / 2.13;
-    const centerY = clock.getBoundingClientRect().height / 2.25;
-    const radius = clock.getBoundingClientRect().width * 0.44;
+    const centerY = clock.getBoundingClientRect().height / 2.2;
+    const radius = clock.getBoundingClientRect().width * 0.42;
 
     const numbers = document.querySelectorAll(".number");
 
